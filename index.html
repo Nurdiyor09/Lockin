@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="uz" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lock-in - Focus & Accountability App</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-900 antialiased">
+
+  <!-- Navbar -->
+  <nav class="fixed top-0 inset-x-0 bg-white shadow-md z-50">
+    <div class="max-w-6xl mx-auto px-6 md:px-10 h-14 flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <img src="https://lock-in.tech/icon.png" alt="Lock-in" class="w-9 h-9">
+        <span class="font-semibold text-lg">Lock-in</span>
+      </div>
+      <div class="hidden md:flex gap-6">
+        <a href="#features" class="hover:text-green-600">Xususiyatlar</a>
+        <a href="#screenshots" class="hover:text-green-600">Ilova</a>
+        <a href="#waitlist" class="hover:text-green-600">Navbatga yozilish</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="min-h-screen flex flex-col md:flex-row items-center justify-center pt-20 px-6 md:px-10 gap-12">
+    <div class="md:w-1/2 text-center md:text-left">
+      <h1 class="text-5xl md:text-6xl font-extrabold mb-4">Chalg'ima. <span class="bg-gradient-to-r from-green-600 via-emerald-500 to-teal-500 bg-clip-text text-transparent">Lock-in.</span></h1>
+      <p class="text-gray-500 mb-6">Telefonda vaqt sarflash zararli, lekin 'Lock-in' bilan emas. Dars qilish endi effektiv va qiziqarliroq.</p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+        <a href="#waitlist" class="bg-green-600 text-white px-6 py-3 rounded-xl hover:bg-green-700 text-center font-semibold">Hoziroq qo'shiling</a>
+        <a href="#screenshots" class="border border-gray-300 px-6 py-3 rounded-xl hover:bg-gray-50 text-gray-700 text-center">Ilova</a>
+      </div>
+    </div>
+    <div class="md:w-1/2 flex justify-center">
+      <div class="bg-gray-900 rounded-3xl p-2 shadow-xl w-60 sm:w-72">
+        <img src="https://lock-in.tech/screenshots/home.png" alt="Lock-in App" class="rounded-2xl object-cover w-full">
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="py-24 px-6 md:px-10 bg-gray-50">
+    <div class="max-w-6xl mx-auto text-center mb-12">
+      <span class="text-sm font-medium tracking-widest uppercase text-emerald-600">Features</span>
+      <h2 class="text-4xl md:text-5xl font-bold mb-4">Nima uchun Lock-in?</h2>
+      <p class="text-gray-500 text-lg max-w-lg mx-auto">Oddiy va samarali vositalar bilan maqsadlaringizga erishing</p>
+    </div>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+      <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
+        <div class="text-3xl mb-3">⏱️</div>
+        <h3 class="font-semibold mb-2">Fokus taymer</h3>
+        <p class="text-gray-500">Chalg'imasdan dars qiling</p>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
+        <div class="text-3xl mb-3">🎯</div>
+        <h3 class="font-semibold mb-2">Maqsadlar</h3>
+        <p class="text-gray-500">Maqsadlaringiz ustida qancha vaqt sarflaganingizni kuzating</p>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
+        <div class="text-3xl mb-3">👥</div>
+        <h3 class="font-semibold mb-2">Do'stlar</h3>
+        <p class="text-gray-500">O‘rtoqlaringiz bilan samaradorligingizni oshiring</p>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
+        <div class="text-3xl mb-3">📊</div>
+        <h3 class="font-semibold mb-2">Statistika</h3>
+        <p class="text-gray-500">O'sishingizni real vaqtda kuzating</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Screenshots Section -->
+  <section id="screenshots" class="py-24 px-6 md:px-10">
+    <div class="text-center mb-12">
+      <span class="text-sm font-medium tracking-widest uppercase text-emerald-600">Preview</span>
+      <h2 class="text-4xl md:text-5xl font-bold mb-2">Ilova</h2>
+      <p class="text-gray-500 text-lg">Zamonaviy va qulay interfeys</p>
+    </div>
+    <div class="flex justify-center">
+      <div class="w-64 sm:w-80 rounded-3xl overflow-hidden shadow-xl">
+        <img src="https://lock-in.tech/screenshots/home.png" alt="Lock-in App" class="object-cover w-full rounded-2xl">
+      </div>
+    </div>
+  </section>
+
+  <!-- Waitlist Form -->
+  <section id="waitlist" class="py-24 px-6 md:px-10 bg-gray-50">
+    <div class="max-w-md mx-auto bg-white p-8 rounded-2xl shadow">
+      <h2 class="text-3xl font-bold mb-4 text-center">Birinchilardan bo'ling</h2>
+      <p class="text-gray-500 text-center mb-6">Navbatga yoziling va ilovadan birinchi bo‘lib foydalaning</p>
+      <form class="space-y-4">
+        <input type="text" placeholder="Ism familiya" class="w-full border px-3 py-2 rounded-xl focus:outline-none focus:ring-2 focus:ring-green-500">
+        <input type="tel" placeholder="Telefon raqam" class="w-full border px-3 py-2 rounded-xl focus:outline-none focus:ring-2 focus:ring-green-500">
+        <input type="text" placeholder="Telegram (ixtiyoriy)" class="w-full border px-3 py-2 rounded-xl focus:outline-none focus:ring-2 focus:ring-green-500">
+        <button class="w-full bg-green-600 text-white py-3 rounded-xl hover:bg-green-700 font-semibold">Ro‘yxatdan o‘tish</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-6 text-center text-gray-500 text-sm">
+    © 2026 Lock-in | <a href="#" class="hover:text-green-600">Privacy</a> · <a href="#" class="hover:text-green-600">Terms</a>
+  </footer>
+
+</body>
+</html>
